@@ -1,0 +1,37 @@
+Real-time conversion and analysis of Nanopore reads
+
+I. Windows
+
+1. Installation:
+ - Download and install HDF-Java (https://www.hdfgroup.org/products/java/release/download.html) 
+
+ - Download either japsa*.tar.gz or japsa*.zip and extract to a directory, e.g., c:\japsa
+
+ - Set up the following environment variables:
+    a. JSA_HOME to the directory where japsa was installed (e.g., c:\japsa)
+    b. JHDF5_LIB to the library directory of HDF-Java that contains files jhdf5.dll and jhdf.dll, e.g., C:\Program Files\HDF_Group\HDFView\2.11.0\lib
+
+2. Running
+ Run jsa.np.f5readerGUI.bat from either command line or mouse click. On the GUI, enter the directory that the Metricho downloads to, and select output file.
+
+
+
+
+II. Linux
+
+1. Installation
+ - Make sure libjhdf5 was installed
+ - check out japsa 
+$git clone https://github.com/mdcao/japsa
+
+- Compile and install
+$cd japsa
+$make -f Makefile.main INSTALL_DIR=<INTALL_DIRECTORY> JLP=<PATH_TO_LIBJDH5.SO>
+
+2. Run
+$jsa.np.f5reader --folder <PATH_TO_DOWLOAD> -output <outputfile.fastq> -GUI
+
+ 
+ 
+ 
+ 
