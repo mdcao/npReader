@@ -5,10 +5,10 @@ I. Windows
 1. Installation:
  - Download and install HDF-Java (https://www.hdfgroup.org/products/java/release/download.html) 
 
- - Download either japsa*.tar.gz or japsa*.zip and extract to a directory, e.g., c:\japsa
+ - Download either japsa*.tar.gz or japsa*.zip and extract to a directory, e.g., c:\JapsaHome. (So you will see c:\JapsaHome\lib\japsa\japsa.jar)
 
  - Set up the following environment variables:
-    a. JSA_HOME to the directory where japsa was installed (e.g., c:\japsa)
+    a. JSA_HOME to the directory where japsa was installed (e.g., c:\JapsaHome)
     b. JHDF5_LIB to the library directory of HDF-Java that contains files jhdf5.dll and jhdf.dll, e.g., C:\Program Files\HDF_Group\HDFView\2.11.0\lib
 
 2. Running
@@ -32,6 +32,9 @@ $make -f Makefile.main INSTALL_DIR=<INTALL_DIRECTORY> JLP=<PATH_TO_LIBJDH5.SO>
 $jsa.np.f5reader --folder <PATH_TO_DOWLOAD> -output <outputfile.fastq> -GUI
 
  
- 
+ You can even pass the fastq to a downstream analysis program, such as bwa:
+
+ $jsa.np.f5reader --folder <PATH_TO_DOWLOAD> -output - -GUI | tee output.fastq | bwa mem <path_to_index> - > output.sam
+
  
  
