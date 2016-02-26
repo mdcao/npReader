@@ -51,5 +51,5 @@ General information of Japsa can be found on its [ReadTheDoc](http://japsa.readt
 If you find npReader useful for your research, please cite its publication:
 
 Cao MD, Ganesamoorthy D, Cooper MA, Coin LJM, (2016). Realtime analysis and visualization of MinION sequencing data
-with npReader. Bioinformatics, 32(5):764–766. DOI: doi: 10.1093/bioinformatics/btv658
+with npReader. Bioinformatics, 32(5):764–766. DOI:[10.1093/bioinformatics/btv658](http://www.doi.org/10.1093/bioinformatics/btv658)
 
