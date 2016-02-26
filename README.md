@@ -42,4 +42,4 @@ Change the JLP directive to point to where JHI5 is installed if needed.
 ### Documentation
 
 Detailed usage of npReader including setting up streaming analysis of nanopore sequencing in
-genuain  real-time can be found from http://japsa.readthedocs.org/en/latest/tools/jsa.np.f5reader.html
+genuine real-time can be found from http://japsa.readthedocs.org/en/latest/tools/jsa.np.f5reader.html
