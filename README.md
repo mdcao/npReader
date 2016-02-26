@@ -1,7 +1,7 @@
 ### Introduction
 
 npReader is a tool to facilitate real-time conversion and analysis of Nanopore sequencing 
-data. Its source code is part of [Japsa](https://github.com/mdcao/japsa) package.
+data. It was developed as part of [Japsa](https://github.com/mdcao/japsa) package where its source code and documentation reside.
 
 ### Quick installation guide
 
