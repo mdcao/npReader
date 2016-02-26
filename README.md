@@ -45,3 +45,11 @@ Detailed usage of npReader including setting up streaming analysis of nanopore s
 genuine real-time can be found from http://japsa.readthedocs.org/en/latest/tools/jsa.np.f5reader.html
 
 General information of Japsa can be found on its [ReadTheDoc](http://japsa.readthedocs.org/en/latest/)
+
+### Reference
+
+If you find npReader useful for your research, please cite its publication:
+
+Cao MD, Ganesamoorthy D, Cooper MA, Coin LJM, (2016). Realtime analysis and visualization of MinION sequencing data
+with npReader. Bioinformatics, 32(5):764–766. DOI: doi: 10.1093/bioinformatics/btv658
+
