@@ -11,6 +11,8 @@ data. It was developed as part of [Japsa](https://github.com/mdcao/japsa) packag
  
     sudo apt-get install libjhdf5-jni
 
+For MacOS, you can download install and install hdfviewer from https://support.hdfgroup.org/ftp/HDF5/releases/HDF-JAVA/hdf-java-2.10.1/bin/
+
 2.Obtain the source code, compile and install
 
     git clone https://github.com/mdcao/japsa
@@ -20,7 +22,7 @@ data. It was developed as part of [Japsa](https://github.com/mdcao/japsa) packag
      [MXMEM=7000m \] 
      [SERVER=true \] 
 
-Change the JLP directive to point to where JHI5 is installed if needed.
+Change the JLP directive to point to where JHI5 is installed if needed. In a standard installation, the directive would be /usr/lib/jni for Linux or XXXX for MacOS.
 
 3.Set the environment variable PATH to include the installation directory, eg,
 
@@ -32,11 +34,11 @@ Change the JLP directive to point to where JHI5 is installed if needed.
   
 ######On any OSs
 
-1.Install JNI from https://www.hdfgroup.org/products/java/JNI/jhi5/index.html 
+1.Install hdf from https://support.hdfgroup.org/downloads/. The current version (1.7-02a) was tested with hdf version 2.10.1, which can be downloaded from https://support.hdfgroup.org/ftp/HDF5/releases/HDF-JAVA/hdf-java-2.10.1/bin/. During installation of hdf, please take note of where the library is installed. 
 
 2.Download pre-compiled Japsa of the latest release from https://github.com/mdcao/japsa/releases
 
-3.Unzip the  package, and run install.sh (for Linux/Mac) or install.bat (for Windows) and follow the prompt.
+3.Unzip the  package, and run install.sh (for Linux/Mac) or install.bat (for Windows) and follow the prompt. Enter the path to hdf library when asked.
 
 
 ### Documentation
