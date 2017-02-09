@@ -22,7 +22,7 @@ For MacOS, you can download and install hdfviewer from https://support.hdfgroup.
      [MXMEM=7000m \] 
      [SERVER=true \] 
 
-Change the JLP directive to point to where JHI5 is installed if needed. In a standard installation, the directive would be /usr/lib/jni for Linux or /Applications/HDFView/Content/Resources/lib for MacOS.
+Change the JLP directive to point to where JHI5 is installed if needed. In a standard installation, the directive would be /usr/lib/jni for Linux or /Applications/HDFView.app/Content/Resources/lib for MacOS.
 
 3.Set the environment variable PATH to include the installation directory, eg,
 
