@@ -11,7 +11,7 @@ data. It was developed as part of [Japsa](https://github.com/mdcao/japsa) packag
  
     sudo apt-get install libjhdf5-jni
 
-For MacOS, you can download install and install hdfviewer from https://support.hdfgroup.org/ftp/HDF5/releases/HDF-JAVA/hdf-java-2.10.1/bin/
+For MacOS, you can download and install hdfviewer from https://support.hdfgroup.org/ftp/HDF5/releases/HDF-JAVA/hdf-java-2.10.1/bin/
 
 2.Obtain the source code, compile and install
 
